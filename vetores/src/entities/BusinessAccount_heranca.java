@@ -35,7 +35,7 @@ public class BusinessAccount_heranca extends Account_heranca {
     }
     public void loan(double amount){ //emprestimo
         if (amount <= loanLimit){
-            deposit(amount);
+            balance += amount - 10.0;
     }
     }
 }

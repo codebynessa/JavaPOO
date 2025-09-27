@@ -12,7 +12,7 @@ package entities;
 public class Account_heranca {
     private Integer number;
     private String holder;
-    private Double balance;
+    protected Double balance;
 
     public Account_heranca(){ //construtor padrao
     }
