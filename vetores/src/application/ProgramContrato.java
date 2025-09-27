@@ -9,6 +9,7 @@ import entities.Department;
 import entities.HourContract;
 import entities.Worker;
 import entities.enums.WorkerLevel;
+import org.w3c.dom.ls.LSOutput;
 
 /**
  * Autor: Vanessa de Freitas Ferreira
@@ -63,5 +64,7 @@ public class ProgramContrato {
 
         sc.close();
     }
+
 }
+
 
