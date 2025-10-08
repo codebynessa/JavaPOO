@@ -34,4 +34,8 @@ public class SavingsAccount_Heranca extends Account_heranca{
     public void updateBalance(){
         balance += balance * interestRate;
     }
+    @Override
+    public void withdraw(double amount){
+        balance -= amount;
+    }
 }
